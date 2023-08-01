@@ -1,0 +1,36 @@
+.nav-section {
+    margin-top: 49px;
+    margin-bottom: 70px;
+  }
+  .logo {
+    display: block;
+    margin-top: -6px;
+    width: 126.89px;
+  }
+  .logo-link {
+    display: inline-block;
+    margin-right: 530px;
+  }
+  .nav {
+    margin-top: -6px;
+    display: inline-block;
+    vertical-align: top;
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .nav__link {
+    text-decoration: none;
+    color: #121212;
+    margin-right: 60px;
+  }
+  
+  .nav__link:last-child {
+    margin: 0;
+  }
+  
+  .nav__link:hover {
+    border-bottom: 1px solid;
+    opacity: 0.5;
+  }

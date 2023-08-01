@@ -1,0 +1,158 @@
+@import "../styles/footer.css";
+@import "../styles/header.css";
+@import "../styles/gallery.css";
+@import "../styles/services.css";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  background: #ffffff;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+.section_interier {
+  margin-left: 26px;
+}
+.interior {
+  position: relative;
+  padding-top: 379px;
+  padding-left: 40px;
+  margin-top: 31px;
+  height: 500px;
+  width: 1150px;
+  background-repeat: no-repeat;
+  background-image: url("../resurses/interior.png");
+  padding-bottom: 40px;
+}
+h1 {
+  margin-top: 77px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #121212;
+}
+.image-text {
+  position: absolute;
+  height: 81px;
+  border: 1px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  width: 419px;
+  letter-spacing: -0.03em;
+}
+h2 {
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 142px;
+  letter-spacing: -0.03em;
+}
+
+p.paragraf {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 45px;
+  width: 1048px;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.link {
+  display: inline-block;
+  background: #ad1818;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 23px 35px;
+  color: #ffffff;
+  margin-top: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+h3 {
+  width: 79px;
+  height: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.conteiner_services {
+  width: 100%;
+  background-color: #121212;
+}
+.block_service {
+  height: 1844px;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  padding-top: 151px;
+  padding-left: 128px;
+  margin-bottom: 58px;
+}
+.services {
+  width: 1150px;
+  height: 326px;
+  margin-left: 125px;
+  margin-bottom: 60px;
+}
+
+.container_img {
+  width: 1150px;
+  height: 270px;
+  margin-bottom: 15px;
+}
+.service_p {
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}
+
+@media (max-width: 998px) {
+  .interior {
+    width: 1100px;
+  }
+
+  p.paragraf {
+    width: 893px;
+    padding-left: 17px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 18px;
+    padding-left: 17px;
+  }
+  .link {
+    margin-left: 17px;
+  }
+
+  .projects {
+    padding: 17px;
+  }
+
+  .item__img {
+    width: 1120px;
+  }
+  .item {
+    width: 0;
+  }
+  h3 {
+    padding-left: 17px;
+  }
+}
